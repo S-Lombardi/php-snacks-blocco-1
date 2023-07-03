@@ -61,13 +61,12 @@ $posts = [
                             <strong><?php echo $post['title'] ?></strong>
                         </li>
                         <li>
-                            <?php echo $post['author'] ?>
+                            <?php echo 'Autore del post: '.$post['author'] ?>
                         </li>
                         <li>
-                            <?php echo $post['text'] ?>
+                            <?php echo 'testo: '.$post['text'] ?>
                             <br><br>
                         </li>
-
                     <?php }?>
                 </ul>
             <?php }?>
