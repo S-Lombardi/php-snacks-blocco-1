@@ -33,11 +33,11 @@
         <h2>Lista partite // squadre - punteggio</h2>
         <!-- Lista delle partite -->
         <ul>
-         <?php foreach($matches as $match) { ?> 
-            <li>
-                <?php echo $match['teams']."| ".$match['score']; ?>
-            </li>
-         <?php }?>
+            <?php foreach($matches as $match) { ?> 
+                <li>
+                    <?php echo $match['teams']."| ".$match['score']; ?>
+                </li>
+            <?php }?>
         </ul>
     </body>
 </html>
